@@ -12,7 +12,7 @@ namespace TeamCity
         }
         static void Main(string[] args)
         {
-            WriteLine(sum(1, 2));
+            WriteLine(sum(2, 3));
         }
     }
 }
