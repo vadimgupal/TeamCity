@@ -4,15 +4,15 @@ using static System.Console;
 
 namespace TeamCity
 {
-    internal class Program
+    public class Program
     {
-        static int sum(int a,int b)
+        static public int sum(int a,int b)
         {
             return a + b;
         }
         static void Main(string[] args)
         {
-            aWriteLine(sum(2, 3));
+            WriteLine(sum(2, 3));
         }
     }
 }
