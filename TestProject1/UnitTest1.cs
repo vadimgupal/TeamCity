@@ -15,10 +15,19 @@ namespace TestProject1
         public void Test1()
         {
             Assert.IsTrue(sum(1,2)==3);
-            Assert.IsTrue(sum(0,0) == 0);
-            Assert.IsTrue(sum(0, -2) == -2);
             Assert.IsTrue(sum(5, 1000) == 1005);
             Assert.IsTrue(sum(7, -7) == 0);
+        }
+        [Test]
+        public void Test2()
+        {
+            Assert.IsTrue(sum(0, 0) == 0);
+        }
+
+        [Test]
+        public void Test3()
+        {
+            Assert.IsTrue(sum(0, -2) == -2);
         }
     }
 }
